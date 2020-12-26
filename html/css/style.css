@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "FagoNoTf-Black";
+  src: url("../fonts/FagoNoTf-Black.woff") format("woff"), url("../fonts/file_name.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sqr {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  border: 2px solid yellow;
+}
+
+body {
+  top: 25px;
+}
+
+div {
+  background: url(../img/download.png) 0 0 no-repeat;
+}
+@supports (-webkit-appearance:none){
+div{background:url(../img/download.webp) 0 0 no-repeat}
+}
